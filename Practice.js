@@ -7,3 +7,13 @@ const height = inchToFeet(73);
 console.log(height);
 const liamheight = inchToFeet(75);
 console.log(liamheight);
+
+
+
+// Miles to Kilometer By Function
+function ToKilo(miles){
+    const kilo = miles*1.6;
+    return kilo;
+}
+const jubu = ToKilo(50);
+console.log(jubu);
